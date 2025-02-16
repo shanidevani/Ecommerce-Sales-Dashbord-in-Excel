@@ -2,6 +2,8 @@
 ## **Overview**
 This **Ecommerce Sales Dashboard** is designed to analyze key business metrics such as **total sales, quantity sold, profit, and customer behavior**. Built using **Microsoft Excel**, the dashboard visualizes essential insights through interactive charts, helping businesses track performance trends and make data-driven decisions.
 
+![Ecommerce Sales Dashboard](images/Super%20Store.png)
+
 # **Key Performance Indicators (KPIs)**
 At the top of the dashboard, four major KPIs summarize overall sales performance:
   - **Total Sales Amount (₹437,771)**: The total revenue generated.
@@ -10,13 +12,18 @@ At the top of the dashboard, four major KPIs summarize overall sales performance
   - **Average Price (₹77.96)**: The average selling price per unit.
 These KPIs provide a **quick performance summary** to assess revenue growth, profitability, and sales volume.
 
+![KPIs](images/KPIs.png)
+
 # **Detailed Breakdown of Charts**
 ## **1. Profit by Payment Mode (Bar Chart)**
 This chart displays profit distribution across different payment methods:
   - **Credit Card & COD (Cash on Delivery)** generate the highest profit.
   - **EMI, Debit Card, and UPI** contribute smaller profit margins.
+
 > [!IMPORTANT]
 >**Insight**: Encouraging digital payments and providing discounts on high-profit payment methods can enhance revenue.
+
+![Profit by Payment Mode](images/Profit%20by%20Payment%20Mode.png)
 
 ## **2. Top 5 States by Sold Quantity (Donut Chart)**
 This visualization shows the top-performing states based on sales volume:
@@ -26,12 +33,16 @@ This visualization shows the top-performing states based on sales volume:
 > [!IMPORTANT]
 > **Insight**: Expanding product distribution in these states can further drive sales.
 
+![Top 5 States by Sold Quantity](images/Top%205%20States%20by%20Sold%20Quantiry.png)
+
 ## **3. Top 6 Customers by Amount (Bar Chart)**
 This chart identifies the highest-paying customers:
   - **Harjyash, Madhav, and Madan Mohan** are the top spenders.
   - **Shiva, Vishaka, and Vimala** also contribute significantly to revenue.
 > [!IMPORTANT]
 > **Insight**: Offering personalized deals or loyalty programs to high-spending customers can boost retention and sales.
+
+![Top 6 Customers by Amount](images/Top%206%20Customers%20by%20Amount.png)
 
 ## **4. Monthly Profit (Bar Chart)**
 This graph illustrates monthly profit trends:
@@ -41,6 +52,8 @@ This graph illustrates monthly profit trends:
 > [!IMPORTANT]
 > **Insight**: Seasonal promotions and better cost management strategies can optimize profits.
 
+![Monthly Profit](images/Monthly%20Profit.png)
+
 ## **5. Top 5 Cities by Amount (Bar Chart)**
 This chart ranks cities based on total sales revenue:
   - **Indore (₹63,680)** and **Mumbai (₹58,886)** generate the highest sales.
@@ -48,12 +61,16 @@ This chart ranks cities based on total sales revenue:
 > [!IMPORTANT]
 > **Insight**: Strengthening marketing and logistics in these cities can enhance business growth.
 
+![Top 5 Cities by Amount](images/Top%205%20Cities%20by%20Amount.png)
+
 ## **6. Top 5 Sub-Categories by Quantity (Bar Chart)**
 This visualization highlights the most sold product categories:
   - **Sarees (795 units)** and **Handkerchiefs (741 units)** have the highest sales.
   - **Stoles, Furnishings, and T-shirts** also contribute significantly to sales volume.
 > [!IMPORTANT]
 > **Insight**: Stocking up on high-demand products and optimizing inventory can improve revenue and reduce stockouts.
+
+![Top 5 Sub-Categories by Quantity](images/Top%205%20Sub-Categories%20by%20Quantiry.png)
 
 # **Financial Year Calculation (Custom Excel VBA Function)**
 To analyze data based on the **financial year (April to March)**, a **custom VBA function** has been created. This function calculates the **financial year** for any given date.
